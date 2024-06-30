@@ -1,0 +1,58 @@
+
+body{
+    height : 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 8%);
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 12%);
+    height: 32rem;
+    width: 20rem;
+    gap: 1.4rem;
+    border-radius: 0.3rem;
+  }
+  .name{
+    font-weight: bold;
+    font-size: 1.7rem;
+    color: white;
+  }
+  .stay{
+    color: hsl(75, 94%, 57%);
+  }
+  .caption{
+    color: white;
+  }
+  .pic{
+    height: 5rem;
+    border-radius: 3rem;
+  }
+  .para{
+    font-size: 14px;
+
+  }
+  .bor{
+    background-color: rgb(59, 59, 59);
+    width: 16rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.2rem;
+    color: aliceblue;
+    text-decoration: none;
+
+  }
+  a:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+  }
+  @media(max-width:600px){
+
+  }
+  
